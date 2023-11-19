@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- HTML Document: This document defines the structure and content of the webpage -->
+<html lang="en">
+    <!-- Head Section: Contains meta tags, links to stylesheets, and other head elements -->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <link href="styles.css" rel="stylesheet">
+        <title>MuzakMaker</title>
+    </head>
+    <!-- Body Section: Contains the main content displayed to the user -->
+    <body>
+        <!-- Header Section: Typically contains the logo, navigation bar, and other introductory content -->
+        <header>
+            <h1>
+                <a href="index.html">MuzakMaker</a>
+            </h1>
+            <!-- Section: Represents a standalone section of content within the page -->
+            <section id="intro">
+                <h2>Smooth Jazz</h2>
+                <p>
+                    This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented crossover jazz became dominant in the 1980s and early 1990s.
+                </p>
+            </section>
+            <!-- Navigation Section: Contains links to other pages or sections of the page -->
+            <nav>
+                <input class="menu-btn" id="menu-btn" type="checkbox">
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul id="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="#trending">Trending Songs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#playlists">Your playlists</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#curated">Curated Playlists</a></li>
+                    <li class="nav-item"><a href="#"><img alt="#" src="Images/duke-silver.png"></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- Section: Represents a standalone section of content within the page -->
+            <section>
+                <h3>Trending Songs</h3>
+                <div class="scroll" id="trending">
+                    <!-- Sections for individual songs -->
+                    <section>
+                        <h4>Aloma</h4>
+                        <dl>
+                            <dt>Artist</dt>
+                            <dd>Cali</dd>
+                        </dl>
+                        <img alt="#" src="Images/aloma-cover.png">
+                        <audio controls="" src="Audio/aloma.mp3"></audio>
+                    </section>
+                    <!-- Repeating similar structure for additional songs -->
+                    <section>
+                        <h4>My Road</h4>
+                        <dl>
+                            <dt>Artist</dt>
+                            <dd>Nesterouk</dd>
+                        </dl>
+                        <img alt="#" id="myroad.img" src="Images/my-road-cover.png">
+                        <audio controls="" id="myroad.audio" src="Audio/my-road.mp3"></audio>
+                    </section>
+                    <section>
+                        <h4>Papaya</h4>
+                        <dl>
+                            <dt>Artist</dt>
+                            <dd>Dredstudio</dd>
+                        </dl>
+                        <img alt="#" src="Images/papaya-cover.png">
+                        <audio controls="" src="Audio/papaya.mp3"></audio>
+                    </section>
+                    <section>
+                        <h4>Smoothies</h4>
+                        <dl>
+                            <dt>Artist</dt>
+                            <dd>Black Rhomb</dd>
+                        </dl>
+                        <img alt="#" src="Images/smoothies-cover.png">
+                        <audio controls="" src="Audio/smoothies.mp3"></audio>
+                    </section>
+                    <section>
+                        <h4>Successful Performance</h4>
+                        <dl>
+                            <dt>Artist</dt>
+                            <dd>Ricky Bombino</dd>
+                        </dl>
+                        <img alt="#" src="Images/successful-performance-cover.png">
+                        <audio controls="" src="Audio/successful-performance.mp3"></audio>
+                    </section>
+                </div>
+                <button id="moreTrending" type="button">More trending</button>
+            </section>
+            <div id="lowerSections">
+                <!-- Section: Represents a standalone section of content within the page -->
+                <section>
+                    <h3>Your Playlists</h3>
+                    <div class="scroll" id="playlists">
+                        <!-- Individual Playlist Sections -->
+                        <section>
+                            <img alt="#" src="Images/best-of-2020-cover.png">
+                            <h4>Best of 2020</h4>
+                            <p>The music that got you through the lock down.</p>
+                        </section>
+                        <section>
+                            <img alt="#" src="Images/pumpkin-spice-cover.png">
+                            <h4>Pumpkin Spice</h4>
+                            <p>Creamy and spicy, just like your favorite autumnal latte.</p>
+                        </section>
+                        <section>
+                            <img alt="#" src="Images/quiet-storm-cover.png">
+                            <h4>Quiet Storm</h4>
+                            <p>Slow tempos and relaxed rhythms.</p>
+                        </section>
+                        <section>
+                            <img alt="#" src="Images/smooth-jazz-cover.png">
+                            <h4>Smooth Jazz</h4>
+                            <p>The pioneers of smooth jazz</p>
+                        </section>
+                        <section>
+                            <img alt="#" src="Images/smooth-study-cover.png">
+                            <h4>Smooth Study</h4>
+                            <p>Background music to keep you going while you study.</p>
+                        </section>
+                    </div>
+                    <button id="allPlaylists" type="button">All your playlists</button>
+                </section>
+                <!-- Section: Curated Playlists -->
+                <section>
+                    <h3>Curated Playlists</h3>
+                    <div class="scroll" id="curated">
+                        <!-- Individual Curated Playlist Sections -->
+                        <section>
+                            <img alt="#" src="Images/boozy-brunch-cover.png">
+                            <h4>Boozey Brunch</h4>
+                            <p>Light up the afternoon with these energetic hits.</p>
+                        </section>
+                        <section>
+                            <img alt="#" src="Images/dinner-party-cover.png">
+                            <h4>Dinner Party</h4>
+                            <p>Background music to give your party life, but allow your guests to chat.</p>
+                        </section>
+                        <section>
+                            <img alt="#" src="Images/mellow-cover.png">
+                            <h4>Mellow</h4>
+                            <p>Relax after a stressful day with this collection of extra smooth jazz.</p>
+                        </section>
+                        <section>
+                            <img alt="#" src="Images/jazz-chill-cover.png">
+                            <h4>Jazz and Chill</h4>
+                            <p>Set the mood with these silky sounds.</p>
+                        </section>
+                        <section>
+                            <img alt="#" src="Images/smooth-saxophone-cover.png">
+                            <h4>Jazz Saxophone</h4>
+                            <p>The greatest collection of your sax favorites.</p>
+                        </section>
+                    </div>
+                    <button id="moreCurated" type="button">More curated</button>
+                </section>
+            </div>
+        </main>
+        <!-- Footer Section: Contains footer content like contact info, copyright, and links -->
+        <footer>
+            <p><small>Copyright 2022 Smooth Jazz</small></p>
+        </footer>
+    </body>
+</html>
